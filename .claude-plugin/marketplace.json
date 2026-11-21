@@ -1,0 +1,16 @@
+{
+  "name": "souljazzfunk-agent-skills",
+  "description": "Fork of janestreet/agent_skills packaged as a plugin marketplace",
+  "owner": {
+    "name": "souljazzfunk"
+  },
+  "plugins": [
+    {
+      "name": "socratic-tutor",
+      "source": "./",
+      "strict": false,
+      "description": "Structured Socratic tutoring: diagnostic placement, a skill map with levels 0-5, spaced review, and a final assessment. Upstream: janestreet/agent_skills.",
+      "skills": ["./socratic-tutor"]
+    }
+  ]
+}
